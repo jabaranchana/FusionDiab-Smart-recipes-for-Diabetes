@@ -4,6 +4,7 @@ FusionDiab is a responsive and interactive web application designed to help diab
 
 🔗 Live Demo
 Click here to view the website (Replace with your GitHub Pages/Netlify/other hosted link)
+
 📁 Project Structure
 bash
 Copy
@@ -22,6 +23,8 @@ FusionDiab/
 │
 ├── images/             # Backgrounds, icons, and recipe visuals
 └── README.md           # Project documentation
+
+
 🛠️ Tech Stack
 HTML5 – Page structure
 
