@@ -11,18 +11,18 @@ Copy
 Edit
 FusionDiab/
 │
-├── index.html          # Homepage - Welcome screen
-├── meal-plans.html     # Diabetic meal plans and tips
-├── recipes.html        # Fusion recipe recommender
+├── index.html          
+├── meal-plans.html     
+├── recipes.html        
 │
 ├── css/
-│   └── styles.css      # Custom styles
+│   └── styles.css      
 │
 ├── js/
-│   └── script.js       # Interactive logic and recipe generation
+│   └── script.js       
 │
-├── images/             # Backgrounds, icons, and recipe visuals
-└── README.md           # Project documentation
+├── images/             
+└── README.md           
 
 
 🛠️ Tech Stack
