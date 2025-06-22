@@ -1,0 +1,99 @@
+body {
+margin: 0;
+font-family: Arial, sans-serif;
+background: url('https://img.freepik.com/premium-photo/vegetable-stew-saute-caponata-stewed-eggplant-with-paprika-tomatoes-spices-herbs-white-kitchen-table-background-top-view-copy-space_144356-75863.jpg') no-repeat center
+center fixed;
+background-size: cover;
+color: #181818; /* Default color for body text */
+text-shadow: 1px 1px 2px rgba(16, 16, 16, 0.7);
+}
+.navbar {
+background: #09a066;
+padding: 10px;
+color: white;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.navbar a {
+color: white;
+text-decoration: none;
+}
+.navbar a:hover {
+text-decoration: underline;
+}
+.home {
+padding: 20px;
+text-align: center;
+}
+.home h2, .home p {
+color: rgb(13, 13, 13); /* White color for headings and paragraphs in the home page
+*/
+}
+.features {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+gap: 20px;
+padding: 20px;
+}
+.feature-card {
+background: rgba(245, 242, 242, 0.9);
+padding: 20px;
+border-radius: 10px;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+transition: transform 0.3s, box-shadow 0.3s;
+color: #181818; /* Default text color for feature cards */
+}
+.feature-card:hover {
+transform: translateY(-5px);
+box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+/* Recipes Page */
+.recipes {
+padding: 20px;
+}
+.recipes h2, .recipes p {
+color: rgb(8, 8, 8); /* White color for headings and paragraphs in the recipes page
+*/
+}
+.recipe-list {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+gap: 20px;
+}
+.recipe-item {
+background: rgba(255, 255, 255, 0.9);
+padding: 20px;
+border-radius: 10px;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+transition: transform 0.3s, box-shadow 0.3s;
+color: #181818; /* Default text color for recipe items */
+}
+.recipe-item:hover {
+transform: translateY(-5px);
+box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+.recipe-item img {
+width: 100%;
+height: 200px;
+object-fit: cover;
+}
+/* Meal Plan Form */
+.meal-plan-form {
+display: flex;
+flex-direction: column;
+gap: 10px;
+align-items: flex-start;
+}
+.meal-plan-form button {
+background: #09a066;
+color: white;
+padding: 20px;
+border: none;
+border-radius: 10px;
+cursor: pointer;
+transition: background 0.3s;
+}
+.meal-plan-form button:hover {
+background: #09a066;
+}
